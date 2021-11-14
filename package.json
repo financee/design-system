@@ -1,0 +1,13 @@
+{
+  "name": "financee-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "watch": "sass src/index.scss:dist/css/index.min.css --style=compressed --watch",
+    "build": "sass src/index.scss:dist/css/index.min.css --style=compressed"
+  },
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
+
